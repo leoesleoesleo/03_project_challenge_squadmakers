@@ -1,0 +1,13 @@
+Django==3.2.4
+mysqlclient==2.0.3
+djangorestframework==3.12.4
+django-debug-toolbar==3.7.0
+PyMySQL==1.0.3
+python-decouple==3.6
+django-extensions==3.2.1
+pytest==5.4.3
+pytest-django==3.8.0
+pytest-cov==2.10.0
+six==1.14.0
+cryptography==40.0.1
+drf-yasg==1.21.5

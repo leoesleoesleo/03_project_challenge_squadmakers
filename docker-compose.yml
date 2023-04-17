@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: challenge_project
+    command: python3 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/challenge_project
+    ports:
+      - "8000:8000"
