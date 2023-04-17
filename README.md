@@ -82,7 +82,16 @@ http://localhost:8000/swagger/
 http://localhost:8000/redoc/
 
 <div align="center">
-	<img height="700" src="https://leoesleoesleo.github.io/imagenes/botsi_flujo.PNG">
+	<img height="700" src="https://leoesleoesleo.github.io/imagenes/swagger_challenge.png">
+</div> 
+
+## Coverage
+
+<div align="center">
+	<img height="600" src="https://leoesleoesleo.github.io/imagenes/coverage_challenge.png">
+</div> 
+<div align="center">
+	<img height="300" src="https://leoesleoesleo.github.io/imagenes/test_challenge.png">
 </div> 
 
 ## Decsisiones que se tomaron en el proyecto
@@ -96,13 +105,16 @@ Se opta por utilizar MySQL dado que es uno de los motores de base de datos más 
 </p>
 
 <p align="justify">
-Tambien se opta por implementar una arquitectura que permita desacoplar las aplicaciones, como se mensiona al inicio de este documento.
+Se opta por implementar una arquitectura que permita desacoplar las aplicaciones, como se mensiona al inicio de este documento.
 </p>
 
 <p align="justify">
 Se opta por implementar patron de diseño conector, que proporcione una abstracción para que los componentes se comuniquen sin tener que preocuparse por los detalles de implementación, en este caso el consumo de las APIS con la libreria requests.
 </p>
 
+<p align="justify">
+Para evitar problemas de compatibilidad y configuración se opta por dockerizar la aplicaciòn
+</p>
 
 ## Manual de instalación
 
@@ -176,3 +188,24 @@ Se opta por implementar patron de diseño conector, que proporcione una abstracc
     ```
    python manage.py runserver
     ```
+
+## Pruebas Postman
+
+<div align="center">
+	<img height="500" src="https://leoesleoesleo.github.io/imagenes/get_joke.png">
+</div> 
+<div align="center">
+	<img height="500" src="https://leoesleoesleo.github.io/imagenes/post_joke.png">
+</div>
+<div align="center">
+	<img height="500" src="https://leoesleoesleo.github.io/imagenes/put_joke.png">
+</div>
+<div align="center">
+	<img height="500" src="https://leoesleoesleo.github.io/imagenes/delete_joke.png">
+</div>
+<div align="center">
+	<img height="500" src="https://leoesleoesleo.github.io/imagenes/lcm_math.png">
+</div>
+<div align="center">
+	<img height="500" src="https://leoesleoesleo.github.io/imagenes/plus_one_math.png">
+</div>
