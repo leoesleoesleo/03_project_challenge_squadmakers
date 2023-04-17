@@ -44,7 +44,7 @@ Se utiliza el patrón de serialización para convertir los modelos de Django en 
 <strong>Patrón de serialización</strong>
 </p>
 <p align="justify">
-sigue el patrón de arquitectura REST (Representational State Transfer), que se basa en principios de diseño para crear servicios web escalables y mantenibles. DRF utiliza una estructura de URL clara y jerárquica para representar los recursos, y HTTP para definir las acciones que se realizan en esos recursos.
+Se utiliza una estructura de URL clara y jerárquica para representar los recursos, y HTTP para definir las acciones que se realizan en esos recursos.
 </p>
 
 <p align="justify">
@@ -78,7 +78,6 @@ Este patròn se divide en dos partes principales: el conector y el componente. E
 ## Documentación Swagger y Redoc
 
 http://localhost:8000/swagger/
-
 http://localhost:8000/redoc/
 
 <div align="center">
@@ -94,10 +93,10 @@ http://localhost:8000/redoc/
 	<img height="300" src="https://leoesleoesleo.github.io/imagenes/test_challenge.png">
 </div> 
 
-## Decsisiones que se tomaron en el proyecto
+## Decisiones que se tomaron en el proyecto
 
 <p align="justify">
-Inicialmete se elige el framework DRF dado que sigue las mejores prácticas de desarrollo de software, lo que asegura que el código sea limpio, escalable y fácil de mantener.
+Inicialmente se elige el framework DRF dado que sigue las mejores prácticas de desarrollo de software, lo que asegura que el código sea limpio, escalable y fácil de mantener.
 </p>
 
 <p align="justify">
@@ -105,16 +104,17 @@ Se opta por utilizar MySQL dado que es uno de los motores de base de datos más 
 </p>
 
 <p align="justify">
-Se opta por implementar una arquitectura que permita desacoplar las aplicaciones, como se mensiona al inicio de este documento.
+Se opta por implementar una arquitectura que permita desacoplar las aplicaciones, como se menciona al inicio de este documento.
 </p>
 
 <p align="justify">
-Se opta por implementar patron de diseño conector, que proporcione una abstracción para que los componentes se comuniquen sin tener que preocuparse por los detalles de implementación, en este caso el consumo de las APIS con la libreria requests.
+Se opta por implementar patrón de diseño conector, que proporciona una abstracción para que los componentes se comuniquen sin tener que preocuparse por los detalles de implementación, en este caso el consumo de las APIS con la librería requests.
 </p>
 
 <p align="justify">
 Para evitar problemas de compatibilidad y configuración se opta por dockerizar la aplicaciòn
 </p>
+
 
 ## Manual de instalación
 
