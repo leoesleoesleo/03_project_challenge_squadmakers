@@ -37,16 +37,7 @@ class JokeChallengeViews(APIView):
             ),
             400: "Validation error",
             500: "Internal Server Error",
-        },
-        manual_parameters=[
-            openapi.Parameter(
-                name='param',
-                in_=openapi.IN_QUERY,
-                type=openapi.TYPE_STRING,
-                description='Kind of joke. Possible values: "Chuck" or "Dad"',
-                required=False
-            )
-        ]
+        }
     )
     def get(self, request):
         try:

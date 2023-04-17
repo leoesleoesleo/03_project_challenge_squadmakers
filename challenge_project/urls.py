@@ -8,9 +8,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="API de chistes",
+        title="API Joke",
         default_version='v1',
-        description="API para obtener, guardar, actualizar y eliminar chistes",
+        description="API to get, save, update and delete jokes",
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
